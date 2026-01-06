@@ -1,0 +1,13 @@
+=== EMPLOYEE MANAGEMENT SYSTEM ===
+1. Add New Employee
+2. View All Employees
+3. Search Employee
+4. Update Employee
+5. Delete Employee
+6. Generate Reports
+7. Save to File
+8. Load from File
+9. Exit
+
+Employee added successfully!
+Employee data saved to file.

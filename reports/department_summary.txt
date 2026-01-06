@@ -1,0 +1,13 @@
+DEPARTMENT WISE SUMMARY
+
+Engineering:
+- Employees: 2
+- Average Salary: ₹95,000
+
+Marketing:
+- Employees: 1
+- Average Salary: ₹95,000
+
+HR:
+- Employees: 1
+- Average Salary: ₹75,000
