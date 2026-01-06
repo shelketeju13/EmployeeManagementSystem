@@ -66,7 +66,8 @@ EmployeeManagementSystem/
 └── reports/
 ├── salary_report.txt
 ├── department_summary.txt
-└── sample_output.txt
+│   sample_output.txt
+└── sample_data.txt
 ```
 
 ---
@@ -89,6 +90,47 @@ data/employees.dat
 2. Open in any Java IDE
 3. Ensure `data/` folder exists
 4. Run `EmployeeManagementSystem.java`
+
+---
+
+## Data Storage & File Visibility (Important Note)
+
+This project uses **Java Object Serialization** to store employee records.
+
+### Data File Used
+- File Name: `employees.dat`
+- Location: `data/` folder
+- Format: Binary `.dat` file
+
+### Why `employees.dat` is Not Readable on GitHub
+- `.dat` files store data in **binary format**
+- GitHub can preview only **text-based files**
+- Therefore, employee data will **not be visible** on GitHub
+
+This is **expected behavior** and does not indicate missing or incorrect data.
+
+### How Data is Stored
+- Employee objects are stored using `ObjectOutputStream`
+- Entire `ArrayList<Employee>` is saved at once
+- File is created automatically when data is saved
+
+### How Data is Loaded
+- Data is read using `ObjectInputStream`
+- Objects are restored into memory
+- HashMap is rebuilt for fast searching
+
+### How to View the Stored Data
+1. Run `EmployeeManagementSystem.java`
+2. Select the **Load/View Employees** option from the menu
+3. Employee records will be displayed in the console
+
+### Reason for Using `.dat` File
+- Preserves complete object structure
+- Faster read/write operations
+- Prevents manual data tampering
+- Standard practice for console-based Java applications
+
+✔ This approach follows recommended Java file-handling standards.
 
 ---
 

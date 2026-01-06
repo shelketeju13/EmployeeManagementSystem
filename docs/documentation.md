@@ -84,7 +84,8 @@ EmployeeManagementSystem/
 └── reports/
 ├── salary_report.txt
 ├── department_summary.txt
-└── sample_output.txt
+│   sample_output.txt
+└── sample_data.txt
 ```
 
 

@@ -1,0 +1,31 @@
+Employee Management System - Sample data
+
+Employee ID: E001
+Name: Alice Johnson
+Department: Engineering
+Position: Software Developer
+Salary: 85000
+
+Employee ID: E002
+Name: Bob Wilson 
+Department: Marketing
+Position: Marketing Manager
+Salary: 95000
+
+Employee ID: E003
+Name: Carol Davis
+Department: HR
+Position: HR Specialist
+Salary: 75000
+
+Employee ID: E004
+Name: David Brown
+Department: Engineering
+Position: Senior Developer
+Salary: 105000
+
+Employee ID: E004
+Name: Emma Thomas
+Department: Finance
+Position: Finance Analystics
+Salary: 85000

@@ -65,8 +65,29 @@ Each employee record contains the following fields:
 
 ---
 
-## 5. Notes
+# Employee Data Format Specification
 
-- Always ensure that **Employee IDs are unique** to prevent data conflicts.  
-- Do not manually edit the `employees.dat` file; use the Employee Management System interface.  
-- The data format supports future expansion (e.g., adding new attributes) while maintaining serialization compatibility.
+## Storage Method
+- Java Object Serialization
+- Binary `.dat` file
+
+## File Path
+data/employees.dat
+
+## Stored Object
+ArrayList<Employee>
+
+## Employee Object Structure
+- Employee ID : String
+- Name : String
+- Department : String
+- Position : String
+- Salary : double
+- Join Date : LocalDate
+
+## Notes
+- File is system-generated
+- Manual editing is not supported
+- Data is accessed only through the application
+
+
